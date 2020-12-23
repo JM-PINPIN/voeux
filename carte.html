@@ -1,16 +1,346 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <!--commentaire-->
-    <title>Bonne année 2021</title>
-  </head>
+    <title> Bonne année 2021 </title>
+    <style media="screen">
+      body {color: darkseagreen;
+        background-color: rgb(255, 252, 230);
+        font-size: 2vw;
+        text-align: justify;}
+      h1 {color: indianred;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;}
+      h2 {color: lawngreen;
+        text-align: center;
+        font-size: 4vw;}
+      p {text-indent: 2vw;}
+      button {font-size: 2vw;}
 
+    </style>
+  </head>
   <body>
+
     <h1 id="maintitle">La carte de v&oelig;ux dont vous êtes le héros !</h1>
     <h2 id="maintitle2">Il vous suffit de cliquer sur les boutons et de lire la carte de v&oelig;ux qui apparaît devant vos yeux ébahis.</h2>
-    <p>Voilà, il ne reste que quelques jours pour souhaiter adieu à cette année qui vient de s'écouler.</p>
-    <p>Prenons un peu d'avance et disons déjà : au revoir </p>
+    <p>Voilà, il ne reste que quelques jours pour souhaiter adieu à cette année qui vient de s'écouler.<br>Prenons un peu d'avance et disons déjà : au revoir </p>
+    <button type="button" onclick="fun2020();">2020</button>
+    <button type="button" onclick="fun2002();">2002</button>
+    <button type="button" onclick="fun1010();">1010</button>
 
+    <section id="date2020">
+      <p> Même si 2020 nous a amené un tas de problèmes, <br>
+        une montagne de galères et a saupoudré tout ça avec des soucis, <br>
+        nous pouvons quand même remercier cette année écoulée pour </p>
+        <button type="button" onclick="cA1();">Le rhum, les femmes et la bière nom de Dieu !</button>
+        <button type="button" onclick="cA2();">Les rires aux éclats et les larmes de joie.</button>
+        <button type="button" onclick="cA3();">tout le poisson.</button>
+
+      <section id="A1">
+        <p><strong>Yaaaaarrrrrh !</strong> <br>
+          Tu as intérêt à être préparer pour cette épopée qui t'attend, marin d'eau douce.<br>
+          Une traversée des sept mers sur un vieux rafiot, fin comme un oiseau ! Hissez haaaaaut !<br>
+          Nous fêterons cette fête en pillant et en buvant comme de vulgaires ruffians.</p>
+          <button type="button" onclick="cA1A();">*Acquiescer le capitaine du Bureau*</button>
+          <button type="button" onclick="cA1B();">*Vomir sur le capitaine du Bureau*</button>
+          <button type="button" onclick="cA1C();">*s'enfuir en courant*</button>
+
+          <section id="A1A">
+            <p>T'es un bon, gamin. Je vais t'prendre sous mon aile et tu verras que ce Noël en mer sera le meilleur de toute ta vie !<br>
+              Joyeux Noël, écrevisse de rempart ! </p>
+          </section>
+
+          <section id="A1B">
+            <p>Mais... Mon plus beau pourpoint ! Tu vas le regretter, cocher de fiacre ! *Tu es balancé par dessus bord* </p>
+          </section>
+
+          <section id="A1C">
+            <p>Hep hep hep, espèce de brasse-carré. Tu ne t'en tireras pas comme ça !<br>
+              *Ils te rattrapent, t'attachent au grand mât du bâteau et te force à boire du rhum toute la soirée.*<br>
+               Hahaha joyeux Noël, gamin !
+          </section>
+      </section>
+
+      <section id="A2">
+        <p> Pour 2021, nous vous souhaitons tout d'abord l'essentiel : <strong>la santé</strong>. <br>
+          Ensuite, tout aussi important, que vos journées soient faites de toutes petites joies et de plus grandes aussi. <br>
+          Et finalment, mais tout aussi important,</p>
+          <button type="button" onclick="cA2A();">Des pintes de bière par dizaines</button>
+          <button type="button" onclick="cA2B();">Du courage et de la passion pour affronter tête baissée les épreuves qui nous attendent</button>
+          <button type="button" onclick="cA2C();">des petits pois, 1kg de carotte, PQ, 1 btlle de whisky,...</button>
+
+          <section id="A2A">
+            <p>Nous te souhaitons un joyeux Noël bien arrosé, que la bière coûle à flot et ne ressorte pas trop de ton gosier.<br>
+              De toute façon, tu ne te souviendras probablement pas de la veille, donc de cette lettre.<br>
+              Grosses baises de notre part et, je l'espère, à bientôt. </p>
+          </section>
+
+          <section id="A2B">
+            <p> En espérant bientôt voir vos jolies petites bouilles, en attendant, portez vous bien, <br>
+              et ne faites pas trop trop de carabistouilles ! </p>
+          </section>
+
+          <section id="A2C">
+            <p> du beurre dx, <br>
+              des avocats (pas trop mûrs), <br>
+              fromage blc, <br>
+              <strong> Ne pas oublier de passer par la pharmacie !!!</strong></p>
+          </section>
+      </section>
+
+      <section id="A3">
+        <p ondblclick="answer();"> Comme vous avez pu le remarquer, des événements désagréables se sont produits cette dernière année. <br>
+        En effet, votre planète (la Terre), se situe malheureusement sur le tracé d'une route de contournement pour l'autoroute galactique.<br>
+        Sa destruction a donc été programmée, et est conforme aux règles Vogonnes en vigueur. <br>
+        Si vous deviez, pour une raison x ou y fuir cette planète et que le vaisseau-stop vous paraît une alternaive intéressante, <br>
+        <strong>N'oubliez pas votre serviette</strong></p>
+      </section>
+    </section>
+
+    <section id="date2002">
+      <p> En espérant que la découverte du SRAS en Chine ne nous cause pas trop de soucis, et que la santé aille toujours. <br>
+      En vous souhaitant que les joies vécuent cette année soient encore plus grandes et nombreuses pour l'année à venir.<br>
+      Il ne nous reste plus qu'à vous souhaiter </p>
+      <button type="button" onclick="cB1();">Des pintes de bière par dizaines</button>
+      <button type="button" onclick="cB2();">Du courage et de la passion pour affronter tête baissée les épreuves qui nous attendent</button>
+      <button type="button" onclick="cB3();">des petits pois, 1kg de carotte, PQ, 1 btlle de whisky,...</button>
+
+      <section id="B1">
+        <p>Nous te souhaitons un joyeux Noël bien arrosé, que la bière coûle à flot et ne ressorte pas trop de ton gosier.<br>
+          De toute façon, tu ne te souviendras probablement pas de la veille, donc de cette lettre.<br>
+          Grosses baises de notre part et, je l'espère, à bientôt. </p>
+      </section>
+
+      <section id="B2">
+        <p> En espérant bientôt voir vos jolies petites bouilles, en attendant, portez vous bien, <br>
+          et ne faites pas trop trop de carabistouilles ! </p>
+      </section>
+
+      <section id="B3">
+        <p> du beurre dx, <br>
+          des avocats (pas trop mûrs), <br>
+          fromage blc, <br>
+          <strong> Ne pas oublier de passer par la pharmacie !!!</strong></p>
+      </section>
+  </section>
+
+
+    <section id="date1010">
+      <p>Que l’an de grâce 1011 vous apportoit moulte bénédictions.<br>
+        Que les querelles sur le sol de la perfide Albion finisse d’estourbir ces satanés Angloys. <br>
+        Que nostre Pape Serge IV annonçoit croisade afin de bouter Mécréants et Sarrasins de Terre Sainte.<br>
+        J’espérois que nous puissions faire ripaille et festoyer au nom </p>
+        <button type="button" onclick="cC1();">de la vinasse goulayante, des porcelets rôtis et des cuissots tendres de ces jeunes filles.</button>
+        <button type="button" onclick="cC2();">de nostre bon Roy et de nostre Saint Père !</button>
+        <button type="button" onclick="cC3();">de nostre Dieu et Sauveur : Sylvain Durrif</button>
+
+        <section id="C1">
+          <p>Je te souhaitâme de bien gobichonner en ce jour de l'anniversaire du Christ et j'espère revoir tien joli minois le plus hâtivement que faire se peut, <br>
+            une fois ceste peste nécrotique boutée hors de nos terres. </p>
+        </section>
+
+        <section id="C2">
+          <p>Que la grâce d'y-celui-ci t'accompagnasse toujours, et que la gloire d'y-celui-là te suive à jamais.</p>
+        </section>
+
+        <section id="C3">
+          <p>Que sa présence cosmique nous protège contre ceste soit disant sainte, alors que démons et monstruosités grouillent en son sein. <br>
+            Puisse le Véritable Christ te guider vers la voie de l'Illumination. </p>
+          <button type="button" onclick="cC3A();"> Puisse-t'il te protéger de l'inquisition et que tu ne périsses point dans les flammes des damnés ! </button>
+          <button type="button" onclick="cC3B();"> Il est l'heure de prendre les armes afin d'éradiquer cette engeance et remettre le Christ cosmique à sa place légitime ! </button>
+          <section id="C3A">
+            <p> <strong>Bravo !</strong> Tu as réussi à fuir l'inquisition ! Bonnes fêtes ! </p>
+          </section>
+
+          <section id="C3B">
+            <p> Tu es tué par l'inquisition. Bonnes fêtes ! </p>
+          </section>
+
+        </section>
+
+
+
+    </section>
+
+
+
+
+
+    <h3 id="sign"> Vos dévoués délégués en AP, Léopold Loutsch et Jean-Malo Pinpin </h3>
+    <script type="text/javascript">
+
+            console.log("celui qui lit ceci est un blaireau")
+            document.getElementById("date2020").style.display = "none";
+            document.getElementById("date2002").style.display = "none";
+            document.getElementById("date1010").style.display = "none";
+            document.getElementById("sign").style.display = "none";
+            function answer(){alert("La réponse à la vie, l'univers et tout le reste est 42")}
+            function fun2020(){
+              document.getElementById("date2020").style.display = "block";
+              document.getElementById("date2002").style.display = "none";
+              document.getElementById("date1010").style.display = "none";
+              document.getElementById("A1").style.display = "none";
+              document.getElementById("A2").style.display = "none";
+              document.getElementById("A3").style.display = "none";
+              document.getElementById("sign").style.display = "none";
+            }
+
+            function fun2002(){
+              document.getElementById("date2020").style.display = "none";
+              document.getElementById("date2002").style.display = "block";
+              document.getElementById("date1010").style.display = "none";
+              document.getElementById("sign").style.display = "none";
+              document.getElementById("B1").style.display = "none";
+              document.getElementById("B2").style.display = "none";
+              document.getElementById("B3").style.display = "none";
+              console.log("ce message n'est d'aucune utilité")
+            }
+
+            function fun1010(){
+              document.getElementById("date2020").style.display = "none";
+              document.getElementById("date2002").style.display = "none";
+              document.getElementById("date1010").style.display = "block";
+              document.getElementById("sign").style.display = "none";
+              document.getElementById("C1").style.display = "none";
+              document.getElementById("C2").style.display = "none";
+              document.getElementById("C3").style.display = "none";
+            }
+
+            function cA1(){
+              document.getElementById("A1").style.display = "block";
+              document.getElementById("A2").style.display = "none";
+              document.getElementById("A3").style.display = "none";
+              document.getElementById("A1A").style.display = "none";
+              document.getElementById("A1B").style.display = "none";
+              document.getElementById("A1C").style.display = "none";
+              document.getElementById("sign").style.display = "none";
+            }
+
+            function cA2(){
+              document.getElementById("A1").style.display = "none";
+              document.getElementById("A2").style.display = "block";
+              document.getElementById("A3").style.display = "none";
+              document.getElementById("sign").style.display = "none";
+              document.getElementById("A2A").style.display = "none";
+              document.getElementById("A2B").style.display = "none";
+              document.getElementById("A2C").style.display = "none";
+              document.getElementById("sign").style.display = "none";
+            }
+
+            function cA3(){
+              document.getElementById("A1").style.display = "none";
+              document.getElementById("A2").style.display = "none";
+              document.getElementById("A3").style.display = "block";
+              document.getElementById("sign").style.display = "none";
+            }
+
+            function cA1A(){
+              document.getElementById("A1A").style.display = "block";
+              document.getElementById("A1B").style.display = "none";
+              document.getElementById("A1C").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cA1B(){
+              document.getElementById("A1A").style.display = "none";
+              document.getElementById("A1B").style.display = "block";
+              document.getElementById("A1C").style.display = "none";
+              document.getElementById("sign").style.display = "none";
+              alert("Game Over !");
+            }
+
+            function cA1C(){
+              document.getElementById("A1A").style.display = "none";
+              document.getElementById("A1B").style.display = "none";
+              document.getElementById("A1C").style.display = "block";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cA2A(){
+              document.getElementById("A2A").style.display = "block";
+              document.getElementById("A2B").style.display = "none";
+              document.getElementById("A2C").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+              console.log("je t'affonne !")
+            }
+
+            function cA2B(){
+              document.getElementById("A2A").style.display = "none";
+              document.getElementById("A2B").style.display = "block";
+              document.getElementById("A2C").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cA2C(){
+              document.getElementById("A2A").style.display = "none";
+              document.getElementById("A2B").style.display = "none";
+              document.getElementById("A2C").style.display = "block";
+              document.getElementById("sign").style.display = "none";
+              alert("Game Over !");
+            }
+
+            function cB1(){
+              document.getElementById("B1").style.display = "block";
+              document.getElementById("B2").style.display = "none";
+              document.getElementById("B3").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+              console.log("je t'affonne !")
+            }
+
+            function cB2(){
+              document.getElementById("B1").style.display = "none";
+              document.getElementById("B2").style.display = "block";
+              document.getElementById("B3").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cB3(){
+              document.getElementById("B1").style.display = "none";
+              document.getElementById("B2").style.display = "none";
+              document.getElementById("B3").style.display = "block";
+              document.getElementById("sign").style.display = "none";
+              alert("Game Over !");
+            }
+
+
+
+            function cC1(){
+              document.getElementById("C1").style.display = "block";
+              document.getElementById("C2").style.display = "none";
+              document.getElementById("C3").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cC2(){
+              document.getElementById("C1").style.display = "none";
+              document.getElementById("C2").style.display = "block";
+              document.getElementById("C3").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cC3(){
+              document.getElementById("C1").style.display = "none";
+              document.getElementById("C2").style.display = "none";
+              document.getElementById("C3").style.display = "block";
+              document.getElementById("sign").style.display = "none";
+              document.getElementById("C3A").style.display = "none";
+              document.getElementById("C3B").style.display = "none";
+            }
+
+            function cC3A(){
+              document.getElementById("C3A").style.display = "block";
+              document.getElementById("C3B").style.display = "none";
+              document.getElementById("sign").style.display = "block";
+            }
+
+            function cC3B(){
+              document.getElementById("C3A").style.display = "none";
+              document.getElementById("C3B").style.display = "block";
+              document.getElementById("sign").style.display = "block";
+            }
+
+
+    </script>
   </body>
 </html>
